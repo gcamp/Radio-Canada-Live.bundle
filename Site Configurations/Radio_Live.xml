@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<site site="http://www.radio-canada.ca/audio-video/index.shtml#urlMedia=http://www.radio-canada.ca/util/endirect/CBFTdirect.asx&pos=0"
-	    plugin="http://publique.radio-canada.ca/audio-video/player/flash/1.0/normal/player.swf"
-			initialState="playing"
-			version="1.0">
-			
-	<crop x="0" y="0" width="480" height="287" />
-</site>

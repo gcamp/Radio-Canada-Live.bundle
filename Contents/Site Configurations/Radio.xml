@@ -1,0 +1,30 @@
+<site  site="http://www.radio-canada.ca/*"
+       plugin="http://publique.radio-canada.ca/audio-video/player/flash/1.0/normal/player.swf"
+       initialState="playing"
+       version="1.0">
+       0
+ <!-- PLAYING -->
+ <state name="playing">
+  <event>
+   <condition>
+    <command name="pause" />
+   </condition>
+   <action>
+    <click x="15" y="304" />
+    <goto state="paused" />
+   </action>
+  </event>
+ </state>
+ <!-- PAUSED -->
+ <state name="paused">
+  <event>
+   <condition>
+    <command name="play" />
+   </condition>
+   <action>
+    <click x="15" y="304" />
+    <goto state="playing" />
+   </action>
+  </event>
+ </state>
+</site>

@@ -30,10 +30,9 @@ def VideoMainMenu():
                 "Radio-Canada Live",
                 subtitle="subtitle",
                 summary="clicking on me will call CallbackExample",
-                thumb=R(ICON),
-                art=R(ART)
         )
     )
+    
     return dir
 
   
