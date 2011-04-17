@@ -2,7 +2,7 @@
        plugin="http://publique.radio-canada.ca/audio-video/player/flash/1.0/normal/player.swf"
        initialState="playing"
        version="1.0">
-       0
+       
  <!-- PLAYING -->
  <state name="playing">
   <event>
