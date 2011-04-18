@@ -1,7 +1,4 @@
-<site  site="http://www.radio-canada.ca/*"
-       plugin="http://publique.radio-canada.ca/audio-video/player/flash/1.0/normal/player.swf"
-       initialState="playing"
-       version="1.0">
+<site site="http://www.radio-canada.ca/" plugin="http://publique.radio-canada.ca/audio-video.*player\.swf" initialState="playing" version="1.0">
        
  <!-- PLAYING -->
  <state name="playing">
@@ -27,4 +24,5 @@
    </action>
   </event>
  </state>
+ 
 </site>
