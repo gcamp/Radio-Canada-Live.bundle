@@ -6,7 +6,7 @@
 	windowHeight="800"
     version="1.0">
 
- <crop x="0" y="18" width="0" height="0" />
+ <crop x="0" y="18" width="480" height="269" />
        
 <!-- PREPARE -->
 <state name="prepare">
