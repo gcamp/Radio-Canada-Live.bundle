@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<site site="radio-canada.*(premiere|espace_musique).asx&amp;pos=0" 
-    plugin="http://publique.radio-canada.ca/audio-video.*mediaVisuel\.swf" 
+<site site="radio-canada" 
+    plugin="http://publique.radio-canada.ca/audio-video.*player\.swf" 
     initialState="prepare" 
     windowWidth="1280"
 	windowHeight="800"
     version="1.0">
 
-<crop x="0" y="0" width="0" height="0" />
+ <crop x="0" y="18" width="480" height="269" />
        
 <!-- PREPARE -->
 <state name="prepare">

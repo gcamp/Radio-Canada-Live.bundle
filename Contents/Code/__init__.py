@@ -33,6 +33,24 @@ def VideoMainMenu():
         )
     )
     
+    dir.Append(
+               WebVideoItem(
+                            "http://www.radio-canada.ca/audio-video/#urlMedia=http://www.radio-canada.ca/util/endirect/premiere.asx&pos=0",
+                            "Premiere chaine Live",
+                            subtitle="subtitle",
+                            summary="clicking on me will call CallbackExample",
+                            )
+               )
+    
+    dir.Append(
+                WebVideoItem(
+                            "http://www.radio-canada.ca/audio-video/index.shtml#urlMedia=http://www.radio-canada.ca/util/endirect/espace_musique.asx&pos=0",
+                            "Musique chaine Live",
+                            subtitle="subtitle",
+                            summary="clicking on me will call CallbackExample",
+                             )
+               )
+    
     return dir
 
   
