@@ -7,11 +7,6 @@
     version="1.0">
 
  <crop x="0" y="18" width="480" height="269" />
- 
-<!-- Set Colors for not Ad-Playing Video -->
- <condition name="notad">
-	<color x="195"  y="287" rgb="626262" />
- </condition>
        
 <!-- PREPARE -->
 <state name="prepare">
