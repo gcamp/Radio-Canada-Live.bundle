@@ -10,7 +10,7 @@
  
 <!-- Set Colors for not Ad-Playing Video -->
  <condition name="notad">
-	<color x="195"  y="-18" rgb="626262" />
+	<color x="195"  y="287" rgb="626262" />
  </condition>
        
 <!-- PREPARE -->
@@ -20,21 +20,7 @@
 				<frameLoaded />
 			</condition>
 			<action>
-				<goto state="checkad" />
-			</action>
-    </event>
-</state>
-       
-             
-<!-- CHECK AD -->
-<state name="checkad">
-    <event>
-			<condition>
-				<condition name="notad" />
-			</condition>
-			<action>
-                <visit url="http://www.radio-canada.ca/audio-video/index.shtml#urlMedia=http://www.radio-canada.ca/util/endirect/CBFTdirect.asx&amp;pos=0" />
-				<goto state="prepare" />
+				<goto state="playing" />
 			</action>
     </event>
 </state>
@@ -46,7 +32,7 @@
             <command name="pause" />
         </condition>
         <action>
-            <click x="15" y="304" />
+            <click x="30" y="315" />
             <goto state="paused" />
         </action>
     </event>
@@ -59,7 +45,7 @@
             <command name="play" />
         </condition>
         <action>
-            <click x="15" y="304" />
+            <click x="30" y="315" />
             <goto state="playing" />
         </action>
     </event>
